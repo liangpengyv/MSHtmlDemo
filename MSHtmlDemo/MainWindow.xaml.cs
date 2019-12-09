@@ -44,7 +44,7 @@ namespace MSHtmlDemo
         /// 获取 IE 进程窗口对象
         /// </summary>
         /// <returns></returns>
-        public static InternetExplorer GetIEWindow()
+        private InternetExplorer GetIEWindow()
         {
             ShellWindowsClass shellWindows = new ShellWindowsClass();
 
